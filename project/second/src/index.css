@@ -1,0 +1,27 @@
+.movies{
+    display: flex;
+    gap: 10px;
+  
+}
+.movie{
+    padding: 20px;
+    background: linear-gradient(45deg, #023b46, #4f4e4e);
+    border-radius: 20px;
+    
+}
+
+.movie h2{
+    text-align: center;
+    color:cyan;
+}
+img{
+    height: 200px;
+    align-items: center;
+    border-radius: 15px;
+}
+img:hover{
+    transform: scale(1.1);
+}
+body{
+    background-color: bisque;
+}

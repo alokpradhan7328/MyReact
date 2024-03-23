@@ -1,0 +1,35 @@
+.App{
+    height: 30vh;
+    width: 20vw;
+    left: 50%;
+    position: absolute;
+    transform: translate(-30%,80%);
+    background-color: #E9F1FA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius:20px ;
+}
+ p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+  font-size: 40px;
+}
+button{
+    color:#323232 ;
+   padding: 10px;
+   border-radius: 20px;
+   background-color:#DDD0C8;
+   margin: 5px;
+}
+button:hover{
+    transform: scale(1.05);
+}
+body{
+    background-color: #00ABE4;
+}
+@media (max-width:850px){
+
+}
